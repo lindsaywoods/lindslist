@@ -1,0 +1,6 @@
+TO DO
+- fix git
+- responsiveness
+- prevent submitting empty text fields
+- styling
+- firebase

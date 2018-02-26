@@ -1,0 +1,195 @@
+@import "normalize.scss";
+@import "variables.scss";
+
+
+body {
+    text-align: center;
+    background: $backgroundColour;
+    // background:linear-gradient(
+        // rgba(17,75,95,.4),
+        // rgba(17,75,95,.4)),url("/dev/styles/assets/cutemonster.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}    
+
+.wrapper {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-family:'Amatic SC', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    font-family:'Amatic SC', cursive;
+    border-radius: 5px;
+    border: 1px dotted black;
+    font-size: 16px;
+    padding: 5px;
+    
+}
+
+li, button, h1, p {
+    color: $mainFont;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-weight: bolder;
+    font-size: 24px;
+    display: flex;
+}
+
+li::before {
+    content: " - ";
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-weight: lighter;
+    font-size: 40px;
+    color: $mainFont;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.titlemonster0 {
+    height: 15px;
+    margin: 0 0 10px;
+}
+.titlemonster1 {
+    height: 25px;
+    opacity: .9;
+    margin:  10px 10px 0;
+}
+.titlemonster2 {
+    height: 30px;
+    margin: 20px 5x 2px;
+    padding: 10px o o ;
+}
+.smallmonster {
+    height: 10px;
+    margin: 10px;
+}
+
+button {
+    background: lighten($backgroundColour,5);
+    border-radius: 5px;
+    padding: 0;
+    margin: 10px;
+    border: 1px dashed black;
+    // font-family:'Amatic SC', cursive;
+    font-family: 'Special Elite', cursive;
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        padding: 10px 10px;
+    }
+}
+
+.stapleform, .todoform {
+    display: flex;
+    align-items: center;
+    input {
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+.stapleformlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    li {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.staplebutton, .todobutton {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+
+.listicon {
+    height: 55px;
+}
+
+.stapleicon {
+    height: 55px;
+}
+
+.listicon, .stapleicon {
+    margin: 15px 0 15px;
+}
+
+.todolist, .staplelist {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.trashicon {
+    padding: 0;
+}
+
+
+
+.trashbutton, .movebutton, .strikebutton {
+    height: 30px;
+}
+
+.trashbuttonoutline {
+    // border: 3px solid mediumvioletred;
+    &::hover {
+        border: 2px solid $mainFont;
+    }
+}
+
+.trashbutton {
+    background-image: url("/dev/styles/assets/smileytrash.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    p {
+        padding: 0 10px;
+        margin: 0;
+    }
+}
+
+.movebutton {
+    display: flex;
+    p {
+        padding: 0 10px;
+    }
+}
+
+.strikebutton {
+    padding: 0 10px;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+}
