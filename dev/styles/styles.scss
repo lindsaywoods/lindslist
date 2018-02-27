@@ -180,7 +180,7 @@ button {
 }
 
 .strikebutton {
-    background-image: url("/dev/styles/assets/check2.svg");
+    background-image: url("/public/styles/assets/check2.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 35px;
@@ -188,7 +188,7 @@ button {
 
 
 .trashbutton {
-    background-image: url("/dev/styles/assets/smileytrash.svg");
+    background-image: url("/public/styles/assets/smileytrash.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 35px;
@@ -199,7 +199,7 @@ button {
 }
 
 .movebutton {
-    background-image: url("/dev/styles/assets/moveicon2.svg");
+    background-image: url("/public/styles/assets/moveicon2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
@@ -220,4 +220,8 @@ button {
         padding: 0;
         margin: 0;
     }
+}
+
+.listform {
+    // display: inline-block;
 }

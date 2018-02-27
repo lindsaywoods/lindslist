@@ -136,18 +136,18 @@ class App extends React.Component {
       <div className="wrapper">
         <div className="header">
           <div className="titleIcon">
-            <img className="titlemonster titlemonster0" src="./dev/styles/assets/cutemonster.png" alt="cute monster"/>
-            <img className="titlemonster titlemonster1" src="./dev/styles/assets/cutemonster.png" alt="cute monster icon"/>
+            <img className="titlemonster titlemonster0" src="./public/styles/assets/cutemonster.png" alt="cute monster"/>
+            <img className="titlemonster titlemonster1" src="./public/styles/assets/cutemonster.png" alt="cute monster icon"/>
           </div>
           <h1>listless</h1>
           <div className="titleIcon">
-            <img className="titlemonster titlemonster2" src="./dev/styles/assets/cutemonster.png" alt="cute monster icon"/>
-            <img className="smallmonster" src="./dev/styles/assets/cutemonster.png" alt="another cute monster"/>
+            <img className="titlemonster titlemonster2" src="./public/styles/assets/cutemonster.png" alt="cute monster icon"/>
+            <img className="smallmonster" src="./public/styles/assets/cutemonster.png" alt="another cute monster"/>
           </div>
         </div>
         
         {/* this is the containing div */}
-          <div className="form">
+          <div className="form listform">
           {/* this is the main list */}
           <form className="todoform" onSubmit={this.addMainListItem}>
             <input type="text" name="listitem" value={this.state.listitem} onChange= {this.handleChange} />
