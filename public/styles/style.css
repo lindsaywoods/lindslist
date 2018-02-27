@@ -265,7 +265,7 @@ li {
 input {
   font-family: 'Amatic SC', cursive;
   border-radius: 5px;
-  border: 1px dotted black;
+  border: 1px dotted #33354d;
   font-size: 16px;
   padding: 5px; }
 
