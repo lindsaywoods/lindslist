@@ -22,7 +22,7 @@ class ListItem extends React.Component {
                 <li className={""}>
                 {this.props.data} 
                     <button className="trashbutton" onClick={() => this.props.delete(this.props.itemIndex)}>
-                    <img src="/public/styles/assets/smileytrash.svg" alt="smiley trash can icon"/>
+                    <img src="./public/styles/assets/smileytrash.svg" alt="smiley trash can icon"/>
                     </button> 
                     <button className="strikebutton" onClick={() => this.itemStrikethrough(this.props.itemIndex)}>
                     </button>
