@@ -386,7 +386,6 @@ button {
   width: 35px; }
 
 .trashbutton {
-  background-image: url("/public/styles/assets/smileytrash.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 35px; }
