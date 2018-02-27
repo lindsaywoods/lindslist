@@ -94,7 +94,6 @@ class App extends React.Component {
   }
   
   deleteMainListItem(index){
-    console.log("mainlistitemdelete");
     const listItemState = Array.from(this.state.items);
     listItemState.splice(index,1);
     this.setState({
@@ -103,9 +102,7 @@ class App extends React.Component {
   }
 
   strikeItem(index){
-    console.log("strike?");
     const strikeItemState = Array.from(this.state.items);
-    // strikeItemState.classlist.add("strike");
     console.log(strikeItemState);
     this.setState({
       items: strikeItemState
@@ -162,6 +159,7 @@ class App extends React.Component {
             </button>
           </form>
           <ul className="todolist">
+          <h2>to-do list</h2>
             {this.state.items.map((listitem, i) => {
               return <ListItem data ={listitem} key={`listitem-${i}`} delete={this.deleteMainListItem} strikethrough={this.strikeItem}  />
             })}

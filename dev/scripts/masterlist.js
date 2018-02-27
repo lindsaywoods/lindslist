@@ -19,7 +19,6 @@ class ListItem extends React.Component {
     render() {
         return (
             <div className="masterlist">
-                {/* <h2>to-do</h2>             */}
                 <li className={""}>
                 {this.props.data} 
                     <button className="trashbutton" onClick={() => this.props.delete(this.props.itemIndex)}>
