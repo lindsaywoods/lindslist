@@ -168,6 +168,14 @@ button {
     }
 }
 
+.strikebutton {
+    background-image: url("/dev/styles/assets/check2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+}
+
+
 .trashbutton {
     background-image: url("/dev/styles/assets/smileytrash.svg");
     background-repeat: no-repeat;
@@ -192,4 +200,8 @@ button {
         padding: 0;
         margin: 0;
     }
+}
+
+.strike {
+    border: 3px solid mediumvioletred;
 }
