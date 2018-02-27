@@ -108,6 +108,7 @@ h2 {
 button {
     background: lighten($backgroundColour,5);
     border-radius: 5px;
+    text-align: center;
     padding: 0;
     margin: 10px;
     border: 1px dashed black;
@@ -216,13 +217,8 @@ button {
 }
 
 .strikebutton {
-    padding: 0 10px;
     p {
         padding: 0;
         margin: 0;
     }
-}
-
-.listform {
-    // display: inline-block;
 }
