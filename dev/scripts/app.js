@@ -139,13 +139,13 @@ class App extends React.Component {
       <div className="wrapper">
         <div className="header">
           <div className="titleIcon">
-            <img className="titlemonster titlemonster0" src="/dev/styles/assets/cutemonster.png" alt="cute monster"/>
-            <img className="titlemonster titlemonster1" src="/dev/styles/assets/cutemonster.png" alt="cute monster icon"/>
+            <img className="titlemonster titlemonster0" src="./dev/styles/assets/cutemonster.png" alt="cute monster"/>
+            <img className="titlemonster titlemonster1" src="./dev/styles/assets/cutemonster.png" alt="cute monster icon"/>
           </div>
           <h1>listless</h1>
           <div className="titleIcon">
-            <img className="titlemonster titlemonster2" src="/dev/styles/assets/cutemonster.png" alt="cute monster icon"/>
-            <img className="smallmonster" src="/dev/styles/assets/cutemonster.png" alt="another cute monster"/>
+            <img className="titlemonster titlemonster2" src="./dev/styles/assets/cutemonster.png" alt="cute monster icon"/>
+            <img className="smallmonster" src="./dev/styles/assets/cutemonster.png" alt="another cute monster"/>
           </div>
         </div>
         

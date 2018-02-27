@@ -1,5 +1,7 @@
 TO DO
 
+- LABEL BUTTONS FOR ACCESSIBILITY
+
 - responsiveness
 - prevent submitting empty text fields
 - styling
