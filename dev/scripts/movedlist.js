@@ -8,7 +8,7 @@ const MovedListItem = (props) => {
                 <img src="./public/styles/assets/smileytrash.svg" alt="delete item" /> 
             </button>
             <button className="strikebutton" onClick={() => props.strikethrough(props.itemIndex)}>
-            <img src="/public/styles/assets/check2.svg" alt="mark to do completed"/>
+            <img src="./public/styles/assets/check2.svg" alt="mark to do completed"/>
             </button>
             </li>
         
