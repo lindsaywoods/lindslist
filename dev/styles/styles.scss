@@ -5,9 +5,6 @@
 body {
     text-align: center;
     background: $backgroundColour;
-    // background:linear-gradient(
-        // rgba(17,75,95,.4),
-        // rgba(17,75,95,.4)),url("/dev/styles/assets/cutemonster.png");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -75,6 +72,12 @@ h2 {
     font-family: 'Special Elite', cursive;
     font-weight: lighter;
     color: $mainFont;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.staplelist {
+    text-align: left;
 }
 
 
@@ -171,15 +174,13 @@ button {
 }
 
 .trashbuttonoutline {
-    // border: 3px solid mediumvioletred;
     &::hover {
         border: 2px solid $mainFont;
     }
 }
 
 .strikebutton {
-    background-image: url("/dev/styles/assets/check2.png");
-    // background-image: url("")
+    background-image: url("/dev/styles/assets/check2.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 35px;

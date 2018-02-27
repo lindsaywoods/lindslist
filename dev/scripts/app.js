@@ -184,6 +184,7 @@ class App extends React.Component {
             </form>
 
             <ul className="staplelist">
+            <h2 className="staplesheader">staples</h2>
               {this.state.quickItems.map((quickItem, i) => {
                 return <StapleItem data={quickItem} key={`quickItem-${i}`} delete={this.deleteListItem} move={this.moveToMasterList} itemIndex={i} />
               })}
