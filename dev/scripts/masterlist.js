@@ -11,13 +11,16 @@ class ListItem extends React.Component {
     }
     
     itemStrikethrough() {
+        
         this.setState({
             strikethrough: true,
+            listClass: "strike",
+
         });
     }
     render() {
         return (
-            <li className={"apple" ? "thing" : "strike"}>
+            <li className={}>
             {this.props.data} 
                 <button className="trashbutton" onClick={() => this.props.delete(this.props.itemIndex)}>
                 </button> 
