@@ -171,6 +171,7 @@ button {
 
 .trashbutton, .movebutton, .strikebutton {
     height: 30px;
+    width: 30px;
 }
 
 .trashbuttonoutline {
@@ -179,11 +180,11 @@ button {
     }
 }
 
-.strikebutton {
-    background-image: url("/public/styles/assets/check2.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 35px;
+.strikebutton, .movebutton {
+    img {
+        width: 30px;
+        text-align: center;
+}
 }
 
 
@@ -199,7 +200,7 @@ button {
 }
 
 .movebutton {
-    background-image: url("/public/styles/assets/moveicon2.svg");
+    // background-image: url("/public/styles/assets/moveicon2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;

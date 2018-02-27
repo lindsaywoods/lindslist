@@ -5,9 +5,10 @@ const StapleItem = (props) => {
     <li>
       {props.data} 
       <button className="trashbutton" onClick={() => props.delete(props.itemIndex)}>
+        <img src="./public/styles/assets/smileytrash.svg" alt="smiley trash can icon" />
       </button> 
       <button className="movebutton" onClick={() => props.move(props.itemIndex)}>
-        {/* <p>move</p> */}
+        <img src="/public/styles/assets/moveicon2.svg" alt="move to todo list"/>
       </button> 
     </li >
   );

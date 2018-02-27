@@ -374,16 +374,15 @@ button {
   padding: 0; }
 
 .trashbutton, .movebutton, .strikebutton {
-  height: 30px; }
+  height: 30px;
+  width: 30px; }
 
 .trashbuttonoutline::hover {
   border: 2px solid #33354d; }
 
-.strikebutton {
-  background-image: url("/public/styles/assets/check2.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 35px; }
+.strikebutton img, .movebutton img {
+  width: 30px;
+  text-align: center; }
 
 .trashbutton {
   background-repeat: no-repeat;
@@ -394,7 +393,6 @@ button {
     margin: 0; }
 
 .movebutton {
-  background-image: url("/public/styles/assets/moveicon2.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
