@@ -8,7 +8,7 @@ const StapleItem = (props) => {
         <img src="./public/styles/assets/smileytrash.svg" alt="smiley trash can icon" />
       </button> 
       <button className="movebutton" onClick={() => props.move(props.itemIndex)}>
-        <img src="/public/styles/assets/moveicon2.svg" alt="move to todo list"/>
+        <img src="./public/styles/assets/moveicon2.svg" alt="move to todo list"/>
       </button> 
     </li >
   );
